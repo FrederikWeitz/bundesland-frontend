@@ -1,0 +1,44 @@
+ul {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(1, minmax(200px, 1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 500px) {
+  ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 800px) {
+  ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+ul {
+  margin-left: -5px;
+}
+ul li {
+  display: inline-block;
+  width: 88%;
+  border-collapse: separate;
+  border-width: 10px;
+  border-color: #ddd;
+  border-style: solid;
+  padding: 10px;
+  margin: 5px;
+}
+ul li a {
+  color: #000;
+  text-decorator: none;
+}
+p.title {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+}
+p.number {
+  font-size: 14px;
+  margin: 0px;
+}

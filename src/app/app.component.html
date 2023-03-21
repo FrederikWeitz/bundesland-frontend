@@ -1,3 +1,11 @@
-<div>
-  Leeres Projekt
+<div class="app-container">
+  <div class="head-container">
+    <bundeslaender-head></bundeslaender-head>
+  </div>
+  <div class="country-list">
+    <country [countryData]="stateList"></country>
+  </div>
+  <div>
+    <person-index [personIndex]="personIndexCount"></person-index>
+  </div>
 </div>

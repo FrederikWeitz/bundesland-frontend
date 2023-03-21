@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+.app-container {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.head-container {
+  max-width: 1024px;
+  margin: 10px 0px 10px;
+}
+
+.country-list {
+  margin: 0px 0px;
+}
+
+
+ul#persons { }
+ul#persons li {
+  text-transform: uppercase;
+  background-color: #ddd;
+}
